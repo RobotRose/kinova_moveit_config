@@ -1,9 +1,9 @@
 controller_list:
-  - name: fake_jaco_arm_controller
+  - name: fake_mico_arm_controller
     joints:
-      - jaco_joint_1
-      - jaco_joint_2
-      - jaco_joint_3
-      - jaco_joint_4
-      - jaco_joint_5
-      - jaco_joint_6
+      - mico_joint_1
+      - mico_joint_2
+      - mico_joint_3
+      - mico_joint_4
+      - mico_joint_5
+      - mico_joint_6

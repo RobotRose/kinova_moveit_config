@@ -21,7 +21,7 @@ planner_configs:
     type: geometric::PRM
   PRMstarkConfigDefault:
     type: geometric::PRMstar
-jaco_arm:
+mico_arm:
   planner_configs:
     - SBLkConfigDefault
     - ESTkConfigDefault
@@ -34,4 +34,4 @@ jaco_arm:
     - TRRTkConfigDefault
     - PRMkConfigDefault
     - PRMstarkConfigDefault
-  projection_evaluator: joints(jaco_joint_1,jaco_joint_6)
+  projection_evaluator: joints(mico_joint_1,mico_joint_6)
