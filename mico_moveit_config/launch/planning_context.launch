@@ -5,8 +5,8 @@
   <!-- The name of the parameter under which the URDF is loaded -->
   <arg name="robot_description" default="robot_description"/>
 
-  <!-- Load universal robot description format (URDF) -->
-  <arg name="urdf_file" default="$(find xacro)/xacro.py '$(find mico_description)/robots/standalone_arm.urdf'" />
+  <!-- Load the URDF file -->
+  <arg name="urdf_file" default="$(find xacro)/xacro.py '$(find mico_description)/robots/standalone_arm.urdf.xacro'" />
   <param name="robot_description" command="$(arg urdf_file)" />
   
   <!-- The semantic description that corresponds to the URDF -->
